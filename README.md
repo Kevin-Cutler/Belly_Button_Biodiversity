@@ -1,7 +1,4 @@
-# Belly_Button_Biodiversity
-
-headerimage
-
+<img width="1500" alt="Belly_Button_Header" src="https://user-images.githubusercontent.com/88467263/142784154-9c91cbf2-bf57-4b7e-9c1f-54bbbf7b3278.PNG">
 ## Overview of Project:
 ___________________________________________
 
