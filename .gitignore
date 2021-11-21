@@ -6,10 +6,7 @@
 
 # BlueJ files
 *.ctxt
-static
-plots.js
-script.js
-index_.html
+
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
@@ -27,3 +24,7 @@ index_.html
 hs_err_pid*
 Class Resources
 Resources
+static
+plots.js
+script.js
+index_.html
