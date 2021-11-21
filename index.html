@@ -7,20 +7,53 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bellybutton Biodiversity</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../Belly_Button_Biodiversity/static/style.css">
+  <!--style>
+  
+  .jumbotron {
+    background-image: url("../Belly_Button_Biodiversity/static/istockphoto-94076561-1024x1024.jpg");
+    background-size: 100% 100%;
+    background-color: rgb(255, 187, 0);
+    }
+
+  </style-->
 </head>
 
 <body>
 
   <div class="container">
     <div class="row">
+      
       <div class="col-md-12 jumbotron text-center">
-        <h1>Belly Button Biodiversity Dashboard</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
+        
+      <h1 class="text-warning bg-info">Belly Button Biodiversity Dashboard</h1>
+        <p class="text-info bg-primary">Use the interactive charts below to explore the dataset</p>
       </div>
     </div>
+
+<div class="container">
+<div class="row">
+  <div class="col-md-13 text-left">
+
+<p> 
+  When you’re looking to find the perfect ingredients for hamburgers you usually go to the grocery store.
+  What if I told you that some of the best tasting beef can be produced by ingredients found close to home.
+  We are researching bacteria species that synthesize proteins that taste like beef. We tested microorganisms found in
+  the navel of candidates across the country. In our dashboard from the panel below you can select candidate ids and
+  display demographic information and results of the type of bacteria found in the human belly button. Below you will obtain the results of the
+  top 10 bacterial species in their belly buttons.
+
+</p>
+
+
+  </div>
+  </div>
+
+
     <div class="row">
       <div class="col-md-2">
         <div class="well">
+
           <h5>Test Subject ID No.:</h5>
           <!-- <select id="selDataset"></select> -->
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
@@ -48,7 +81,8 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="plots.js"></script>
+  <script src="BellyButton_bar_chart_starter_code.js"></script>
+
 
 </body>
 

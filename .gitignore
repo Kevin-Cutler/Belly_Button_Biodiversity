@@ -6,6 +6,10 @@
 
 # BlueJ files
 *.ctxt
+static
+plots.js
+script.js
+index_.html
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
