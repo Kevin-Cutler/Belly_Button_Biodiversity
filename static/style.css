@@ -1,0 +1,22 @@
+
+
+.jumbotron{
+    position:relative;
+}
+
+.jumbotron > * {
+z-index: 13;
+position:relative;
+color:whitesmoke;
+
+}
+.jumbotron {
+    background-image: url("../static/istockphoto-94076561-1024x1024.jpg");
+    background-size: 25%;
+    background-image: rgb(255, 187, 0);
+    }
+.jumbotron {
+    color: #0d6efd;}
+body {
+    font-family: 'Audiowide', sans-serif;
+    }
